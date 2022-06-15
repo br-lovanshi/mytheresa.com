@@ -54,16 +54,111 @@
     display: block;
     text-align: center;
     margin-top: 15px;
+    font-size: 18px;
 }
 .t2{
     display: block;
     text-align: center;
     margin-top: 15px;
     color: gray;
+    font-size: 16px;
 }
 .t3{
     display: block;
     text-align: center;
     margin-top: 15px;
     color: gray;
+    font-size: 16px;
 }
+#call+.t1+.t2{
+    text-decoration: underline;
+}
+#callhead{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+#hs1{
+    display: block;
+    text-align: center;
+    color: #9f2943;
+    margin-top: 10px;
+}
+#mainhead{
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    /* position: relative; */
+}
+#ysp{
+    font-size: 14px;
+    margin-top: 20px;
+}
+#pcheck{
+  display: block;
+  margin-left: 997px;
+  border: none;
+  color: white;
+  background-color:black;
+  font-size: 16px;
+  padding: 5px;
+  width: 230px;
+  cursor: pointer;
+}
+#pcheck:hover{
+color: white;
+background-color: rgb(169, 166, 166);
+}
+
+#pcont{
+    border:  1px solid black;
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+    margin-left: 835px;
+    margin-top: 15px;
+
+}
+
+#photo{
+    width: 130px;
+}
+
+#sankhya{
+    width: 150px;
+    text-align: center;
+}
+#daam{
+    width: 100px;
+}
+
+#detidaiss{
+    width: 700px;
+}
+#joda{
+   width: 140.9px; 
+   
+   text-align: right;
+}
+/* table {
+    border-spacing: 10px;
+  } */
+  .prpoo{
+    width: 120px;
+    height: 135.9px;
+  }
+  hr{
+    margin-top: 10px;
+  }
+  .ppp{
+    margin-top: 5px;
+  }
+
+  #hatao{
+    margin-top: 10px;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    padding: 10px ;
+    background-color: #fff;
+  }
