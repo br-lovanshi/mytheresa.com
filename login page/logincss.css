@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Futura-Medium", "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+  }
+  #big_container{
+
+    display: flex;
+
+  }
+
+  #space{
+    margin-top: 15px;
+  }
+
+  #radio_box{
+    margin-top: 25px;
+    width: 30%;
+    /* height: 100px; */
+  }
+
+
+#select{
+    width: 80%;
+    height: 40px;
+    margin: 5px;
+}
+#input{
+    margin: 5px;
+    display: grid;
+    width: 80%;
+    height: 210px;
+    gap: 10px;
+}
+#register{
+    padding: 20px;
+}
+
+
+ #anptherpart{
+   margin-left: 180px;
+    
+} 
+#logininput{
+    display: grid;
+    width: 130%;
+    height: 80px;
+    gap: 10px;
+    margin-top: 25px;
+}
+#signbtn{
+    background-color: black;
+    color: aliceblue;
+    width: 30%;
+    height: 30px;
+    margin-top: 20px;
+}
+#loginbtn{
+    background-color: black;
+    color: aliceblue;
+    width: 30%;
+    height: 30px;
+    margin-top: 20px;
+}
+#vl {
+    border-left: 1px solid grey;
+    height: 730px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
