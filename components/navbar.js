@@ -3,28 +3,29 @@ class Navbar {
     let topNav = document.createElement("div");
     topNav.setAttribute("id", "topNav");
     let catLinks = `<ul id="cat_L_Links">
-                      <li><a href="#">women</a></li>
-                      <li><a href="#">men</a></li>
-                      <li><a href="#">kids</a></li>
-                      <li><a href="#">life</a></li>
+                      <li><a href="index.html">women</a></li>
+                      <li><a href="men.html">men</a></li>
+                      <li><a href="kids.html">kids</a></li>
+                      <li><a href="life.html">life</a></li>
                     </ul>
                     <ul id="cat_R_Links">
-                      <li><a href="#">Signup for Newsletter</a></li>
-                      <li><a href="#">My account</a></li>
-                      <li><a href="#">My wishlist</a></li>
+                      <li><a href="newslatter.html">Signup for Newsletter</a></li>
+                      <li></li>
+                      <li><a href="./construct_week_addtocart/add_cart.html">My wishlist</a></li>
                       <li><a href="#">India | English</a></li>
                     </ul>`;
     topNav.innerHTML = catLinks;
     let midNav = document.createElement("div");
     midNav.setAttribute("id", "midNav");
     let midNavHtml = `
-                    <div id="logo">
+                      <a href="./construct_week_addtocart/add_cart.html"> <div id="logo">
+                 
                       <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220608T143740">
                     </div>
                     <div id="cart"><span class="outer_cart">SHOPPING BAG<span class="material-symbols-outlined cart_bag">
                     shopping_bag
                     <span class="cartCount">99<span>
-                    </span></span></div>
+                    </span></span></div></a>
     
     `;
     midNav.innerHTML = midNavHtml;

@@ -1,3 +1,4 @@
+
 let hero  = document.getElementById("hero");
 let h4 = document.createElement("h3");
 h4.innerText = "_THE COLLECTIONS HAVE ARRIVED";

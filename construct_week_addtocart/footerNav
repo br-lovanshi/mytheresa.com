@@ -1,6 +1,3 @@
-let cartData  = JSON.parse(localStorage.getItem("userData"));
-console.log(cartData);
-
 // ------------------------> Imports <----------------------
 // import Footer from "./components/footer.js";
 import Navbar from "../components/navbar.js";

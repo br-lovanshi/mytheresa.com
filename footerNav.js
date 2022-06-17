@@ -1,9 +1,6 @@
-let cartData  = JSON.parse(localStorage.getItem("userData"));
-console.log(cartData);
-
 // ------------------------> Imports <----------------------
-// import Footer from "./components/footer.js";
-import Navbar from "../components/navbar.js";
+import Footer from "./components/footer.js";
+import Navbar from "./components/navbar.js";
 // ===============================================================
 // ------------------------> Navbar <----------------------
 let navContainer = document.getElementById("navbarMen");
@@ -12,8 +9,8 @@ navbar.Nav(navContainer);
 
 // ------------------------> Footer <----------------------
 
-// let footerContainer = document.getElementById("footer");
-// let footer = new Footer();
-// footer.Footer(footerContainer);
-import {footerHtml} from "../components/compoents.js";
+let footerContainer = document.getElementById("footer");
+let footer = new Footer();
+footer.Footer(footerContainer);
+import {footerHtml} from "./components/compoents.js";
 document.getElementById("footer").innerHTML = footerHtml()
