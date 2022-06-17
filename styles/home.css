@@ -1,0 +1,151 @@
+#mainSection .offerTag {
+  display: block;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 0;
+  position: sticky;
+  top: 70px;
+  background-color: rgba(255, 255, 255, 0.815);
+}
+#mainSection .bannerImg {
+  width: 100%;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.newArrivalContainer {
+  text-align: center;
+  padding: 24px;
+  background-color: rgb(231, 231, 231);
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+.nac_p1 {
+  margin: 24px 0;
+}
+.nac_h1 {
+  font-weight: 400;
+  margin: 24px 0;
+}
+.nac_p2 {
+  margin: 24px 0;
+}
+.nac_btn,
+.shp_nw_btn {
+  background-color: black;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hm_productContainer {
+  display: grid;
+  margin: 50px 0px;
+  gap: 50px;
+}
+.r_prds {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  border-bottom: 1px solid #bbb;
+}
+.r_prds .prd {
+  text-align: center;
+  margin: 0px 0;
+}
+.r_prds .prd .testmonial h1 {
+  margin: 20px 120px;
+  font-weight: 400;
+  font-size: 36px;
+}
+.r_prds .prd .img {
+  width: 100%;
+  margin: 20px 0;
+}
+.r_prds .prd .img img {
+  width: 100%;
+}
+.r_prds .prd .shp_nw_btn {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.r1_prds .c2_prd,
+.r2_prds .c1_prd {
+  display: grid;
+  align-content: space-between;
+}
+.r1_prds .c2_prd .prd:not(:last-child),
+.r2_prds .c1_prd .prd:not(:last-child) {
+  border-bottom: 1px solid #bbb;
+}
+.mc_section {
+  text-align: center;
+  padding: 40px 0;
+
+  border-bottom: 1px solid #bbb;
+}
+.mc_section .testmonial {
+  text-align: center;
+}
+.mc_section .testmonial h1 {
+  width: 450px;
+  margin: 20px auto;
+  font-weight: 400;
+  font-size: 36px;
+}
+.mc_prds {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.mc_prd {
+  text-align: center;
+}
+.mc_prd img {
+  width: 100%;
+}
+.au_section {
+  padding: 34px 0;
+  border-bottom: 1px solid #bbb;
+}
+.au_section > h3 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.au_section ul {
+  margin-top: 6px;
+  margin-left: 20px;
+  /* list-style-position: inside; */
+}
+.au_section p {
+  font-size: 14px;
+  margin: 24px 0;
+}
+.au_section .exp_ser {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.au_section .exp_ser h3 {
+  font-weight: 400;
+}
+.app_section {
+  padding: 24px 0;
+  border-bottom: 1px solid #bbb;
+  text-align: center;
+}
+.app_section h3 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.download-btn {
+  width: 150px;
+  font-size: 20px;
+  cursor: pointer;
+}
