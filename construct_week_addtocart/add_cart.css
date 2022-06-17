@@ -85,7 +85,7 @@
     margin-top: 10px;
 }
 #mainhead{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     margin: auto;
     /* position: relative; */
@@ -111,7 +111,7 @@ background-color: rgb(169, 166, 166);
 }
 
 #pcont{
-    border:  1px solid black;
+    /* border:  1px solid black; */
     display: flex;
     width: 390px;
     justify-content: space-between;
@@ -161,4 +161,12 @@ background-color: rgb(169, 166, 166);
     cursor: pointer;
     padding: 10px ;
     background-color: #fff;
+    font-size: 16px;
+  }
+  #hatao:hover{
+    color: black;
+  }
+
+  .tspace{
+    margin-bottom: 10px;
   }
