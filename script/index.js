@@ -2,29 +2,29 @@ import Home from "../components/home.js";
 import displayHome from "../components/home.js";
 let cart = document.querySelector("#cart");
 
-let makeHoverEffect = () => {
-  let allLowNavLinks = document.querySelectorAll(".lowNavlink");
-  allLowNavLinks.forEach((link) => {
-    link.addEventListener("mouseover", () => {
-      let hres = document.getElementById("hoverResult");
-      hres.style.display = "block";
-      document
-        .getElementById("hoverResult")
-        .addEventListener("mouseenter", function () {
-          this.style.display = "block";
-        });
-      document
-        .getElementById("hoverResult")
-        .addEventListener("mouseleave", function () {
-          this.style.display = "none";
-        });
-    });
+// let makeHoverEffect = () => {
+//   let allLowNavLinks = document.querySelectorAll(".lowNavlink");
+//   allLowNavLinks.forEach((link) => {
+//     link.addEventListener("mouseover", () => {
+//       let hres = document.getElementById("hoverResult");
+//       hres.style.display = "block";
+//       document
+//         .getElementById("hoverResult")
+//         .addEventListener("mouseenter", function () {
+//           this.style.display = "block";
+//         });
+//       document
+//         .getElementById("hoverResult")
+//         .addEventListener("mouseleave", function () {
+//           this.style.display = "none";
+//         });
+//     });
 
-    link.addEventListener("mouseleave", () => {
-      document.getElementById("hoverResult").style.display = "none";
-    });
-  });
-};
+//     link.addEventListener("mouseleave", () => {
+//       document.getElementById("hoverResult").style.display = "none";
+//     });
+//   });
+// };
 
 // scroll effect for nav bar
 
@@ -55,7 +55,7 @@ document.addEventListener("scroll", function () {
       });
 
       // hover effect for to dropdown menu of navlinks
-      makeHoverEffect();
+      // makeHoverEffect();
 
       // remove midnav
       // add cart to lnav
@@ -63,7 +63,7 @@ document.addEventListener("scroll", function () {
   } else {
     if (lowNavCart) {
       lowNavCart.remove();
-      mNav.innerHTML += `<div id="cart">SHOPPING BAG<span class="outer_cart"><span class="material-symbols-outlined cart_bag">
+      mNav.innerHTML += `<div id="cart"><span class="outer_cart">SHOPPING BAG<span class="material-symbols-outlined cart_bag">
                           shopping_bag
                           <span class="cartCount">99+<span>
                           </span></span></div>`;
@@ -76,13 +76,13 @@ document.addEventListener("scroll", function () {
     }
 
     // hover effect for to dropdown menu of navlinks
-    makeHoverEffect();
+    // makeHoverEffect();
     // add cart to mid nav
     // remove cart from lnav
   }
 });
 
-makeHoverEffect();
+// makeHoverEffect();
 let home = document.getElementById("mainSection");
 
 let hm = new Home();

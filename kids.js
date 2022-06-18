@@ -14,3 +14,4 @@ navbar.Nav(navContainer);
 // footer.Footer(footerContainer);
 import {footerHtml} from "./components/compoents.js";
 document.getElementById("footer").innerHTML = footerHtml()
+

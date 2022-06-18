@@ -22,7 +22,9 @@ class Navbar {
                  
                       <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220608T143740">
                     </div>
-                    <div id="cart"><span class="outer_cart">SHOPPING BAG<span class="material-symbols-outlined cart_bag">
+                    <div id="cart">
+                    
+                    <span class="outer_cart">SHOPPING BAG<span class="material-symbols-outlined cart_bag">
                     shopping_bag
                     <span class="cartCount">99<span>
                     </span></span></div></a>
@@ -55,22 +57,11 @@ class Navbar {
                   </div>
     `;
     lowNav.innerHTML = lowNavHtml;
-    let hoverResult = document.createElement("div");
-    hoverResult.setAttribute("id", "hoverResult");
-    let innerContainer = document.createElement("div");
-    innerContainer.classList.add("innerContainer");
-    hoverResult.append(innerContainer);
-    innerContainer.innerHTML = this.DropDown();
-    lowNav.append(hoverResult);
+    
 
     el.append(topNav, midNav, lowNav);
   }
-  DropDown() {
-    return `<div class="innerLeft">
-              <p class="title">Just in</p>
-              <div class="">
-          </div>`;
-  }
+  
 }
 
 export default Navbar;

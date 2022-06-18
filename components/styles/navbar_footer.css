@@ -50,6 +50,7 @@
   margin: 32px 0px;
 }
 #cart {
+  color: #222;
   display: flex;
   align-items: center;
   position: absolute;
