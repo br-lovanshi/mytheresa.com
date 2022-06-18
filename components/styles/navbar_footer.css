@@ -1,0 +1,257 @@
+/* <########################>>> NAV BAR START <<<########################> */
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
+}
+#navbar {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: -120px;
+  z-index: 100;
+}
+#navbar #topNav {
+  display: flex;
+  justify-content: space-between;
+}
+#cat_R_Links,
+#cat_L_Links {
+  display: flex;
+  list-style-type: none;
+}
+#cat_R_Links li,
+#cat_L_Links li {
+  padding: 8px;
+}
+#cat_L_Links li a {
+  padding: 4px 6px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #444;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+#cat_L_Links li a:hover {
+  background-color: #ddd;
+}
+#cat_R_Links li a {
+  color: #9c9c9c;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#midNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 32px 0px;
+}
+#cart {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 14px;
+  top: 0;
+  right: 0;
+  transform: translate(-10%, -10%);
+  cursor: pointer;
+}
+#midNav #cart .outer_cart {
+  display: flex;
+  align-items: center;
+}
+.cartCount {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -17%);
+  font-size: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+#logo img {
+  width: 280px;
+}
+#cart .cart_bag {
+  font-size: 42px;
+  position: sticky;
+  top: 0;
+}
+
+#lowNav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#lowNavLinks {
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+#lowNavLinks li {
+  height: 100%;
+  align-self: center;
+  width: auto;
+  margin: 0 8px;
+}
+
+#lowNavLinks li a {
+  height: 100%;
+  font-size: 13px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  /* padding-bottom: 5px; */
+  text-transform: uppercase;
+  color: #444;
+  /* letter-spacing: 1.2px; */
+  text-decoration: none;
+}
+#lowNavLinks li a.NavSales {
+  color: red;
+}
+#hoverResult {
+  width: 100%;
+  height: 500px;
+  background-color: red;
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+
+#lowNav .input-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+#NavSearch {
+  width: 100%;
+  padding: 6px;
+  padding-right: 40px;
+  outline: none;
+  border: none;
+  color: #a3a3a3;
+}
+#lowNav .searchBtn {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border: none;
+}
+
+/* inner container for hover on navlinks */
+
+.innerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+/* <########################>>> FOOTER SECTION START <<<########################> */
+
+#footer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 12px;
+}
+.footer_links {
+  margin: 14px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.footer_links > div > h3 {
+  font-weight: 400;
+  margin: 12px 0;
+}
+.security {
+  margin-right: 55px;
+}
+
+.security span {
+  display: flex;
+  align-items: center;
+}
+.security .point {
+  font-size: 16px;
+  margin-left: 8px;
+  color: #222;
+}
+.security p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 32px;
+  /* font-weight: 600; */
+  color: #aaa;
+}
+
+.footer_links > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer_links > div > a {
+  font-size: 14px;
+  display: inline;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #aaa;
+}
+.footer_links > div a:hover {
+  color: #222;
+}
+
+.footer_cta {
+  margin: 14px 0;
+}
+.footer_cta h3 {
+  font-weight: 400;
+  margin: 12px 0;
+}
+.input-group {
+  width: 400px;
+  position: relative;
+  border: 1px solid #222;
+  margin-bottom: 6px;
+}
+.input-group .cta_mail {
+  width: 100%;
+  height: 35px;
+  border: 0;
+  padding: 0 120px 0 10px;
+  outline: none;
+}
+.input-group .cta_btn {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  border: 0;
+  padding: 0 12px;
+  overflow: hidden;
+}
+.footer_cta p {
+  margin-bottom: 5px;
+}
+.footer_cta p a {
+  display: flex;
+  align-items: center;
+  color: #222;
+  text-decoration: none;
+}
+
+.socialLinkscontainer .links .fa-brands {
+  color: gray;
+  font-size: 28px;
+}

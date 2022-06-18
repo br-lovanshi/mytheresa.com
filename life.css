@@ -4,6 +4,8 @@
     border-bottom: 2px solid rgb(198, 191, 191);
     width: 72%;
     cursor: pointer;
+    justify-content: center;
+    margin-left: 80px;
 }
 
 #life_2{
@@ -14,6 +16,8 @@
     border-bottom: 2px solid rgb(198, 191, 191);
     width: 72%;
     cursor: pointer;
+    /* margin-left: 80px; */
+    justify-content: center;
     
 }
 #life_2_sub1{
@@ -65,7 +69,8 @@
     width: 72%;
     text-align: center;
     margin-top: 40px;
-
+    margin-left: 80px;
+    justify-content: center;
 }
 
 #life_3_sub{
