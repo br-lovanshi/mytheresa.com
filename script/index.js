@@ -84,9 +84,12 @@ document.addEventListener("scroll", function () {
 
 makeHoverEffect();
 let home = document.getElementById("mainSection");
+if(home){
 
-let hm = new Home();
-hm.displayHome(home);
+  let hm = new Home();
+  hm.displayHome(home);
+}
+
 
 // for googleplay and app store links
 

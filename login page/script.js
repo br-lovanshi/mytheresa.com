@@ -1,16 +1,17 @@
 
 
 
+
 // signup code
 
-var arr = JSON.parse(localStorage.getItem("userDetails")) || []
+var arr = JSON.parse(localStorage.getItem("userDetailss")) || []
 
 var btn=document.getElementById('signbtn')
-btn.addEventListener('click',myfunc)
+btn.addEventListener("click",myfunc)
 
 function myfunc(event){
     event.preventDefault(); 
-    userDetails = null 
+   let userDetailss = null 
     var obj = {
         Ms:Ms.value,
         Mrs:Mrs.value,
@@ -23,7 +24,7 @@ function myfunc(event){
     }
     arr.push(obj)
 // console.log(arr)
-localStorage.setItem("userDetails",JSON.stringify(arr))
+localStorage.setItem("userDetailss",JSON.stringify(arr))
 window.location.reload()
 }
 
@@ -33,7 +34,7 @@ window.location.reload()
 //  login code
 
 
-var user = JSON.parse(localStorage.getItem("userDetails")) || []
+var user = JSON.parse(localStorage.getItem("userDetailss")) || []
 // console.log(user)
 var bttn = document.getElementById('loginbtn')
 bttn.addEventListener("click", func)
@@ -54,7 +55,7 @@ var exist = user.findIndex(function(ele){
 })
 
     console.log(exist)
-    flag = false;
+    let flag = false;
     if(exist==-1){
         alert('Create account please')
     }else{
@@ -63,7 +64,7 @@ var exist = user.findIndex(function(ele){
                 alert("Account login Successfull")
                 flag=true;
                 localStorage.setItem("userdata",JSON.stringify(ele))
-               window.location.href="account.html"
+               window.location.href="./index.html";
             }
             
         })
@@ -73,4 +74,11 @@ var exist = user.findIndex(function(ele){
     }
 }
 
+
+
+
+
+
+
+//  import navbar
 

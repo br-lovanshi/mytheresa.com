@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../login page/profile.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../components/styles/navbar_footer.css">
+    <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>account</title>
 </head>
-<style>
-   *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  #small_div{
-    margin-left: 150px;
-  }
-</style>
+
 <body>
+
+  <div id="navbarMen"></div>
     <div>
+      <div id="hr"></div>
+      <div id="flex_divs">
         <div id="small_div">
             <h4>MY ACCOUNT</h4>
             
@@ -26,16 +30,55 @@
             <p>my address book</p>
             <p>my gift certificates</p>
             <p>my wishlist</p>
+        </div>
+        <div id="overview">
+          <p>MY OVERVIEW</p>
+        </div>
+        <div id="overviewbox">
+          <p>HELLO, DR. ABDUL RUB!</p>
+          <p>From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.</p>
+        </div>
+        </div>
+         <div id="flexedit">
+        <div id="accinfo">
+          <p id="gap5">MY ACCOUNT INFORMATION</p>
+          <p id="normal">Name:Dr. Abdul Rub </p>
+          <p id="normal">E-mail: arub0419@gmail.com</p>
+        </div>
+            <div id="edddit">
+              <p id="normal"> &gt;Edit</p>
+              <p id="normal">&gt; Change password</p>
 
+            
 
-
-
-
-
-
-
+          </div>
+ 
 
         </div>
+        <div id="hr2"></div>
+        <div id="addressdiv">
+        <div id="addressbook">MY ADDRESS BOOK
+        <h4 id="gap5">Default Billing Address</h4>
+        <p id="normal">You have not set a default billing address.</p>
+        <p id="gap10">&gt; change</p>
+      </div>
+        
+        <div id="defaultShipp">
+          <h4>Default Shipping Address</h4>
+          <p id="normal">You have not set a default shipping address.</p>
+          <p id="gap10">&gt; change</p>
+          
+        </div>
+       
+    </div>
+    <div id="hr2"></div>
+    <div id="easyacc">
+      <p id="gap5">EASY-ACCESS LOGIN</p>
+      <input type="checkbox" >
+      <label><b> Do not permit automatic identification prior to logging in!</b>  </label>
+      
+    </div>
+    <button id="savebtn" >SAVE</button>
 
 
 
@@ -44,5 +87,20 @@
 
 
     </div>
+    <footer id="footer">
+
+    </footer>
 </body>
 </html>
+<script type="module">
+
+  import Navbar from "../components/navbar.js"
+let navContainer = document.getElementById("navbarMen");
+let navbar = new Navbar();
+navbar.Nav(navContainer);
+
+
+import {footerHtml} from "../components/compoents.js";
+document.getElementById("footer").innerHTML = footerHtml()
+
+</script>

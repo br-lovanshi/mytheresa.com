@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Futura-Medium", "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+  }
+  #hr { 
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+#hr2 { 
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 0.5em;
+  /* margin-left: auto; */
+  margin-left: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 65%;
+} 
+ 
+
+  #small_div{
+    margin-left: 110px;
+    margin-top: 50px;
+    
+    /* display: flex; */
+  }
+  #overview{
+    display: flex;
+    margin-left: 180px;
+  }
+  #overviewbox{
+    width: 60%;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    margin-left: -110px;
+  }
+  #accinfo{
+    margin-top: 20px;
+    width: 60%;
+    height: 100px;
+    margin-left: 480px;
+    /* border: 1px solid black; */
+    /* display: flex; */
+
+  }
+  #normal{
+    color: #565454;
+  }
+  #addressbook{
+    margin-top: 20px;
+    /* display: flex; */
+  }
+  #gap5{
+    margin-top: 5px;
+  }
+  #gap10{
+    margin-top: 10px;
+    color: #565454;
+  }
+  #addressdiv{
+    display: flex;
+    margin-left: 475px;
+  }
+  #defaultShipp{
+    margin-left: 150px;
+    padding-top: 46px;
+  }
+  #savebtn{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    width: 5%;
+    height: 25px;
+   border: none;
+   margin-left: 475px;
+  }
+  #flex_divs{
+    display: flex;
+  }
+  #easyacc{
+    margin-top: 20px;
+    margin-left: 475px;
+  }
+  #flexedit{
+    display: flex;
+  }
+  #edddit{
+    margin-left: -350px;
+    margin-top: 40px;
+  }

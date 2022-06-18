@@ -11,4 +11,4 @@ navbar.Nav(navContainer);
 
 let footerContainer = document.getElementById("footer");
 let footer = new Footer();
-footer.Footer(footerContainer);
+footer.displayFooter(footerContainer);
