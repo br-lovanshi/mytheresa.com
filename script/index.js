@@ -84,18 +84,21 @@ document.addEventListener("scroll", function () {
 
 // makeHoverEffect();
 let home = document.getElementById("mainSection");
-
-let hm = new Home();
-hm.displayHome(home);
+if (home) {
+  let hm = new Home();
+  hm.displayHome(home);
+}
 
 // for googleplay and app store links
 
 let appStore = document.querySelector(".appStore");
-appStore.addEventListener("click", function () {
-  window.location =
-    "https://apps.apple.com/in/app/mytheresa-luxury-fashion-edit/id484615570";
-});
-let playStore = document.querySelector(".googlePlay");
-playStore.addEventListener("click", function () {
-  window.location = "https://play.google.com/store/search?q=mytheresa&c=apps";
-});
+if (appStore) {
+  appStore.addEventListener("click", function () {
+    window.location =
+      "https://apps.apple.com/in/app/mytheresa-luxury-fashion-edit/id484615570";
+  });
+  let playStore = document.querySelector(".googlePlay");
+  playStore.addEventListener("click", function () {
+    window.location = "https://play.google.com/store/search?q=mytheresa&c=apps";
+  });
+}

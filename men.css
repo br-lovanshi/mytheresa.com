@@ -1,165 +1,146 @@
-*{
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    letter-spacing: .4px;
-    text-align: center;
-  
-}
-
-#hero{
-    background-image: url("https://source.unsplash.com/1600x720/?men,menfashion");
-    height: 90vh;
-width: fill;
-/* background-position: top 25% right 0%; */
-display: flex;
-flex-direction:column;
-justify-content: center;
-align-items: center;
-padding: 0 80px;
-background-repeat: no-repeat;
+#hero {
+  background-image: url("https://source.unsplash.com/1600x720/?men,menfashion");
+  height: 90vh;
+  width: fill;
+  /* background-position: top 25% right 0%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
+  background-repeat: no-repeat;
 }
 #hero h3 {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 #hero h1 {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 #hero button {
-   
-    background-color: transparent;
-    color:  rgb(0, 0, 0);
-    background-color:white;
-    border: 0;
-    padding:14 80px 14px 65px; 
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: lighter;
-    font-size: 15px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 0;
+  padding: 14 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 15px;
+}
 
-} 
+/* new ariwels  */
+#product1 {
+  margin-bottom: 42px;
+}
 
-
-/* new ariwels  */ 
-
-
-#product1 .pro-container{
-    /* display: flex;
+#product1 .pro-container {
+  /* display: flex;
     flex-wrap: wrap;
      */
 
-     display: grid;
-     grid-template-columns: repeat(4,1fr);
-     grid-template-rows: repeat(auto,auto);
-     grid-gap:15px ;
-}  
-#product1{ 
-    
-    /* display: grid;
-    grid-template-columns: repeat(1fr,4);
-    grid-template-rows: repeat(auto,auto);
-    grid-gap:15px ; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
 
-    text-align: center;
-    /* width: ; */
+#product1 .pro {
+  width: 100%;
+  min-width: 250px;
+  padding: 10px 16px;
+  border: 1px solid #dadada;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: center;
+
+  margin: 15px 0;
 }
-#product1 .pro{
-    width: 23%;
-    min-width: 250px;
-    padding: 10px 16px;
-    border: 1px solid #dadada;
-   border-radius: 25px; 
-   cursor: pointer;
- 
-   margin: 15px 0;
+#product1 .pro:hover {
+  box-shadow: rgba(185, 185, 185, 0.2) 0px 2px 8px 0px;
 }
-#product1 .pro:hover{
-      box-shadow: rgba(185, 185, 185, 0.2) 0px 2px 8px 0px;
+#product1 .pro > img {
+  width: 100%;
+  border-radius: 20px;
 }
-#product1 .pro > img{
-    width: 100%;
-    border-radius: 20px;
-}
-#product1 .pro .discription{
-    text-align: start;
-    padding:10px 0;
+#product1 .pro .discription {
+  text-align: start;
+  padding: 10px 0;
 }
 #product1 .pro .discription > span {
-    color: gray;
-}#product1 .pro .discription >h5{
-    padding-top:7px ;
-    color: black;
-    font-size: 14px;
+  color: gray;
 }
-#product1 .pro .discription >h4{
-    padding-top:7px ;
-    color: rgb(252, 0, 0);
-    font-size: 15px;
-    text-decoration: line-through;
-    font-weight: 700;
-}#product1 .pro .cart{
-    width: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    text-align: center;
-    /* padding: 6px; */
-    height: 20px;
-    /* border-radius: 10px; */
-    font-weight: lighter;
-    color: black;
-    background-color: #f9f9f9;
-    /* border: 0.8px solid rgb(0, 0, 0); */
-    margin-bottom:20px ;
-    border: none;
+#product1 .pro .discription > h5 {
+  padding-top: 7px;
+  color: black;
+  font-size: 14px;
 }
-#product1 .pro .cart:hover{
-    color: white;
-    background-color: black;
-    transition: 0.4sec;
+#product1 .pro .discription > h4 {
+  padding-top: 7px;
+  color: rgb(252, 0, 0);
+  font-size: 15px;
+  text-decoration: line-through;
+  font-weight: 700;
+}
+#product1 .pro .cart {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  /* padding: 6px; */
+  height: 20px;
+  /* border-radius: 10px; */
+  font-weight: lighter;
+  color: black;
+  background-color: #f9f9f9;
+  /* border: 0.8px solid rgb(0, 0, 0); */
+  margin-bottom: 20px;
+  border: none;
+}
+#product1 .pro .cart:hover {
+  color: white;
+  background-color: black;
+  transition: 0.4sec;
 }
 #sm-banner {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 #sm-banner .banner-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-padding-left: 30px;
-    background-image: url("https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixid=MnwyODA3MDF8MHwxfHNlYXJjaHwxfHxtZW58ZW58MHwxfHx8MTY1NTI1NTQyNg&ixlib=rb-1.2.1");
-    min-width: 510px;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-
-}#sm-banner .banner-box2{
-    background-image: url("https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MnwyODA3MDF8MHwxfHNlYXJjaHwyfHxtZW58ZW58MHwxfHx8MTY1NTI1NTQyNg&ixlib=rb-1.2.1");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 30px;
+  background-image: url("https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixid=MnwyODA3MDF8MHwxfHNlYXJjaHwxfHxtZW58ZW58MHwxfHx8MTY1NTI1NTQyNg&ixlib=rb-1.2.1");
+  min-width: 510px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+#sm-banner .banner-box2 {
+  background-image: url("https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MnwyODA3MDF8MHwxfHNlYXJjaHwyfHxtZW58ZW58MHwxfHx8MTY1NTI1NTQyNg&ixlib=rb-1.2.1");
 }
 #sm-banner h4 {
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
 }
 #sm-banner h2 {
-    color: white;
-    font-size: 28px;
-    font-weight: 800;
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
 }
 #sm-banner span {
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    padding-bottom: 15px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
 }
-#sm-banner .banner-box:hover button{
-    background: rgb(0, 0, 0);
-    /* color: white; */
-    border: 1px solid rgb(255, 255, 255);
-
-
-
+#sm-banner .banner-box:hover button {
+  background: rgb(0, 0, 0);
+  /* color: white; */
+  border: 1px solid rgb(255, 255, 255);
 }

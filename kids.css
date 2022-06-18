@@ -1,236 +1,239 @@
-#kid_1{
-    display: flex;
-    /* border: 1px solid black; */
-    justify-content: center;
-    gap: 25px;
-    margin-top: 40px;
-    position: relative;
-    
+#kid_1 {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+  position: relative;
 }
-.img_kid_1{
-    height: 500px;
-    cursor: pointer;
+.img_kid_1 {
+  height: 500px;
+  cursor: pointer;
 }
-#img_kid1{
-    position: relative;
-    cursor: pointer;
-}
-
-#kid_btn1{
-    position: absolute;
-    top: 80%;
-    left: 30%;
-    transform: translate(50%,50%);
-    padding: 5px 5px 5px 5px;
-    background-color: rgb#fff;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    border-color: transparent;
-    cursor: pointer;
+#img_kid1 {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
 }
 
-#kid_btn2{
-    position: absolute;
-    top: 80%;
-    left: 63%;
-    transform: translate(50%,50%);
-    padding: 5px 5px 5px 5px;
-    background-color: rgb#fff;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-}
-#kid1_h1{
-    position: absolute;
-    top: 50%;
-    left: 29%;
-    transform: translate(50%,50%);
-    color: white;
-    font-size: 50px;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
+#kid_btn1 {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(50%, 50%);
+  padding: 5px 5px 5px 5px;
+  background-color: rgb#fff;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  border-color: transparent;
+  cursor: pointer;
 }
 
-#kid1_h2{
-    position: absolute;
-    top: 50%;
-    left: 62%;
-    transform: translate(50%,50%);
-    color: white;
-    font-size: 50px;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
+#kid_btn2 {
+  position: absolute;
+  top: 80%;
+  left: 63%;
+  transform: translate(50%, 50%);
+  padding: 5px 5px 5px 5px;
+  background-color: rgb#fff;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  border-color: transparent;
+  cursor: pointer;
+}
+#kid1_h1 {
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  transform: translate(50%, 50%);
+  color: white;
+  font-size: 50px;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
 }
 
-#kid_2{
-    display: flex;
-    /* border: 1px solid black; */
-    justify-content: center;
-    margin-top: 40px;
-    position: relative;
-    cursor: pointer;
-    
-    
-    
+#kid1_h2 {
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(50%, 50%);
+  color: white;
+  font-size: 50px;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
 }
 
-.img_kid_2{
-    position: relative;
-    width: 75%;
-    padding-left: 180px;
-    cursor: pointer;
+#kid_2 {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  margin-top: 40px;
+  position: relative;
+  cursor: pointer;
 }
 
-#kid_btn3{
-    position: absolute;
-    top: 65%;
-    left: 42%;
-    transform: translate(50%,50%);
-    padding: 5px 5px 5px 5px;
-    background-color: black;
-    color: #fff;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-}
-#kid2_h1{
-    position: absolute;
-    top: -10%;
-    left: 39%;
-    transform: translate(50%,50%);
-    color: black;
-    font-size: 60px;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    cursor: pointer;
+.img_kid_2 {
+  position: relative;
+  width: 75%;
+  /* padding-left: 180px; */
+  cursor: pointer;
 }
 
-#kid_3{
-    display: flex;
-    /* border: 1px solid black; */
-    justify-content: center;
-    gap: 25px;
-    margin-top: 40px;
-    position: relative;
-    
+#kid_btn3 {
+  position: absolute;
+  top: 65%;
+  left: 42%;
+  transform: translate(50%, 50%);
+  padding: 5px 5px 5px 5px;
+  background-color: black;
+  color: #fff;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  border-color: transparent;
+  cursor: pointer;
 }
-.img_kid_3{
-    height: 300px;
-    cursor: pointer;
-}
-#img_kid3{
-    position: relative;
-    cursor: pointer;
-}
-
-#kid_btn4{
-    position: absolute;
-    top: 80%;
-    left: 30%;
-    transform: translate(50%,50%);
-    padding: 5px 5px 5px 5px;
-    background-color:   black;
-    color: #fff;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    border-color: transparent;
-    cursor: pointer;
+#kid2_h1 {
+  position: absolute;
+  top: -10%;
+  left: 39%;
+  transform: translate(50%, 50%);
+  color: black;
+  font-size: 60px;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  cursor: pointer;
 }
 
-#kid_btn5{
-    position: absolute;
-    top: 80%;
-    left: 63%;
-    transform: translate(50%,50%);
-    padding: 5px 5px 5px 5px;
-    background-color: rgb#fff;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    border-color: transparent;
-    cursor: pointer;
+#kid_3 {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+  position: relative;
+}
+.img_kid_3 {
+  height: 300px;
+  cursor: pointer;
+}
+#img_kid3 {
+  position: relative;
+  cursor: pointer;
 }
 
-#imgkid_p{
-    position: absolute;
-    top: 45%;
-    left: 30%;
-    transform: translate(50%,50%);
-    color: black;
-    font-size: 18px;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    cursor: pointer;
-
-}
-#kid3_h1{
-    position: absolute;
-    top: 51%;
-    left: 27%;
-    transform: translate(50%,50%);
-    color: chocolate;
-    font-size: 30px;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    cursor: pointer;
+#kid_btn4 {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(50%, 50%);
+  padding: 5px 5px 5px 5px;
+  background-color: black;
+  color: #fff;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  border-color: transparent;
+  cursor: pointer;
 }
 
-#kid3_h2{
-    position: absolute;
-    top: 53%;
-    left: 56%;
-    transform: translate(50%,50%);
-    color: white;
-    font-size: 30px;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    cursor: pointer;
+#kid_btn5 {
+  position: absolute;
+  top: 80%;
+  left: 63%;
+  transform: translate(50%, 50%);
+  padding: 5px 5px 5px 5px;
+  background-color: rgb#fff;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  border-color: transparent;
+  cursor: pointer;
 }
 
-#kid_4{
-    padding-bottom: 40px;
-    /* border: 1px solid black; */
-    margin: auto;
-    /* padding-left: 300px; */
-    /* justify-content: center; */
-    border-bottom: 2px solid rgb(198, 191, 191);
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-    
-    
-
+#imgkid_p {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  transform: translate(50%, 50%);
+  color: black;
+  font-size: 18px;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+#kid3_h1 {
+  position: absolute;
+  top: 51%;
+  left: 27%;
+  transform: translate(50%, 50%);
+  color: chocolate;
+  font-size: 30px;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  cursor: pointer;
 }
 
-#kid_4_sub{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-
-
-
+#kid3_h2 {
+  position: absolute;
+  top: 53%;
+  left: 56%;
+  transform: translate(50%, 50%);
+  color: white;
+  font-size: 30px;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  cursor: pointer;
 }
 
-.kid_4_img{
-    height: 300px;
-    cursor: pointer;
+#kid_4 {
+  padding-bottom: 40px;
+  /* border: 1px solid black; */
+  margin: auto;
+  /* padding-left: 300px; */
+  /* justify-content: center; */
+  border-bottom: 2px solid rgb(198, 191, 191);
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.kids_p_style{
-    font-size: 15px;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    
+#kid_4_sub {
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
-.Kid_h_style{
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    cursor: pointer;
+.kid_4_img {
+  height: 300px;
+  cursor: pointer;
 }
 
-#kid_btn6{
-    padding: 5px 5px 5px 5px;
-    background-color: black;
-    color: #fff;
-    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    border-color: transparent;
-    width: 200px;
-    cursor: pointer;
+.kids_p_style {
+  font-size: 15px;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+}
+
+.Kid_h_style {
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#kid_btn6 {
+  padding: 5px 5px 5px 5px;
+  background-color: black;
+  color: #fff;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial,
+    sans-serif;
+  border-color: transparent;
+  width: 200px;
+  cursor: pointer;
 }
