@@ -325,4 +325,178 @@ function footerHtml(){
     </span>
 </div>`
 }
-export {arrivals,product1Men,banners,textCon,product,featersPro,footerHtml}
+
+function kidsPage(){
+    return `<div id="kid_1">
+    <div id="img_kid1">
+        <img class="img_kid_1"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/KW_HP_2022_June/Kids_Homepage_KidsSS2_A_Desktop_2x_20220602102257.jpg?imwidth=1180&imdensity=1"
+            alt="">
+        <h1 id="kid1_h1">Girls</h1>
+        <button id="kid_btn1"> Shop Now >></button>
+    </div>
+    <div>
+        <img class="img_kid_1"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/KW_HP_2022_June/Kids_Homepage_B_KidsSS2_Desktop_2x_20220602102256.jpg?imwidth=1180&imdensity=1"
+            alt="">
+        <h1 id="kid1_h2">Boys</h1>
+        <button id="kid_btn2"> Shop Now >></button>
+    </div>
+
+</div>
+<div id="kid_2">
+    <div id="img_kid1">
+        <img class="img_kid_2"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/KW_HP_2022_June/Homepage_Kids_BabyBanner_desktop_2x_20220602092439.jpg?imwidth=1180&imdensity=1"
+            alt="">
+        <h1 id="kid2_h1">Baby</h1>
+        <button id="kid_btn3"> Shop Now >></button>
+    </div>
+</div>
+
+<div id="kid_3">
+    <div id="img_kid3">
+        <img class="img_kid_3"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/15_Sale/SS21/Sale60/pocket_kids_sale_60__image_desktop_1_20210609082417.jpg"
+            alt="">
+        <p id="imgkid_p">NOW UP TO</p>
+        <h1 id="kid3_h1">60% OFF</h1>
+        <button id="kid_btn4"> Shop Sale >></button>
+    </div>
+    <div>
+        <img class="img_kid_3"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/12_Kids/PocketBanners/SS22/CW12_Pocket_KIDS_Swimwear_image_20220503164453.jpg"
+            alt="">
+        <h1 id="kid3_h2">KIDS' SWIMWEAR</h1>
+        <button id="kid_btn5"> Shop Now >></button>
+    </div>
+
+</div>
+<div id="kid_4">
+    <div>
+        <!-- <p class="p_style">SET THE SCENE</p> -->
+        <h1 class="Kid_h_style">KIDS DESIGNER</h1>
+    </div>
+    <div id="kid_4_sub">
+        <!-- <div>
+            <img class="kid_4_img" src="https://rainbow-phoenix-cde10c.netlify.app/ggg.JPG" alt="">
+            
+        </div> -->
+        <div>
+            <img class="kid_4_img"
+                src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_gucci_2x_20220501225102.jpg"
+                alt="">
+            <p class="kids_p_style">GUCCI KIDS</p>
+        </div>
+        <div>
+            <img class="kid_4_img"
+                src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_burberry-kids_2x_20220501225104.jpg"
+                alt="">
+            <P class="kids_p_style">BURBERRY KIDS</P>
+        </div>
+        <div>
+            <img class="kid_4_img"
+                src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_zimmermann_2x_20220501225106.jpg"
+                alt="">
+            <P class="kids_p_style">ZIMMERMANN <br>KIDS</P>
+        </div>
+        <div>
+            <img class="kid_4_img"
+                src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_golden-goose_2x_20220501225101.jpg"
+                alt="">
+            <P class="kids_p_style">GOLDEN GOOSE KIDS</P>
+        </div>
+        <!-- <div>
+            <img class="kid_4_img" src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/08_Carousel/Kids_SE_Carousel_SS22/May/Crosslink-Carousel_moncler-enfant_2x_20220501225104.jpg" alt="">
+            <P class="kids_p_style">MONCLER ENFANT</P>
+        </div> -->
+        <!-- <div>
+            <img class="kid_4_img" src="https://rainbow-phoenix-cde10c.netlify.app/ggg2.JPG" alt="">
+            
+        </div> -->
+    </div>
+    <button id="kid_btn6">SHOP KIDS DESIGNERS</button>
+</div> `
+}
+function lifePage(){
+    return `<div id="life_1"><img id="img_1" class="lifeImg"
+    src="https://img.mytheresa.com/media/static/raw/cms/l/Life_HP_2022_CW22/BIG_EN/Big_Week3_LIFE_desktop_1_2x_20220530121415.jpg?imwidth=1180&imdensity=1"
+    alt="">
+</div>
+<div id="life_2">
+<div id="life_2_sub1">
+    <div>
+        <p class="p_style">WHAT'S ON THE MENU?</p>
+        <h1 class="h_style">Table décor for every type of host</h1>
+    </div>
+    <div>
+     
+        <img src="https://img.mytheresa.com/media/static/raw/cms/l/Life_HP_2022_CW24/ActboxTall_CW05_Actbox_Tall_2x_20220612221125.jpg?imwidth=600&imdensity=1"
+           class="lifeImg"  alt="">
+    </div>
+    <button class="shop_now"><a href="men.html">Shop Now &raquo</a></button>
+</div>
+<div id="life_2_sub2">
+    <div class="sub_img1">
+        <div>
+            <p class="p_style">A SCENT SCAPE</p>
+            <h1 class="h_style">
+                The candle and home  fragrances edit</h1>
+        </div>
+        <div>
+            <img src="https://img.mytheresa.com/media/static/raw/cms/l/Life_HP_2022_CW24/ActboxSmall_CW05_small_1_2x_20220612221116.jpg?imwidth=600&imdensity=1"
+                class="lifeImg" alt="">
+        </div>
+        <button class="shop_now"><a href="men.html">Shop Now &raquo</a></button>
+    </div>
+
+    <div class="sub_img2">
+        <div>
+            <p class="p_style">SIDE TABLE ESSENTIALS</p>
+            <h1 class="h_style">
+                Pieces that bring a space  together</h1>
+        </div>
+        <div>
+            <img src="https://img.mytheresa.com/media/static/raw/cms/l/Life_HP_2022_CW24/ActboxSmall_CW05_small_2_2x_20220612221117.jpg?imwidth=600&imdensity=1"
+               class="lifeImg"  alt="">
+        </div>
+        <button class="shop_now">Shop Now &raquo</button>
+    </div>
+</div>
+
+</div>
+
+<div id="life_3">
+<div>
+    <p class="p_style">SET THE SCENE</p>
+    <h1 class="h_style">Pink is the warmest color</h1>
+</div>
+<div id="life_3_sub">
+    <div>
+        <img class="life_3_img" class="lifeImg"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/Life_finest_edit/LIFE-Finest_edit_furniture_2x_20220602093830.jpg"
+            alt="">
+        <p class="p_style">Furniture</p>
+    </div>
+    <div>
+        <img class="life_3_img" class="lifeImg"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/Life_finest_edit/LIFE-Finest_edit_home-textile_2x_20220602093830.jpg"
+            alt="">
+        <p class="p_style">Home Textile</p>
+    </div>
+    <div>
+        <img class="life_3_img" class="lifeImg"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/Life_finest_edit/LIFE-Finest_edit_home-decor_2x_20220602093829.jpg"
+            alt="">
+        <P class="p_style">Home Décor</P>
+    </div>
+    <div>
+        <img class="life_3_img" class="lifeImg"
+            src="https://img.mytheresa.com/media/static/raw/cms/l/Life_finest_edit/LIFE-Finest_edit_home-tabletop_2x_20220602093829.jpg"
+            alt="">
+        <P class="p_style">Tabletop</P>
+    </div>
+</div>
+</div>`
+}
+export {arrivals,product1Men,banners,textCon,product,featersPro,footerHtml,kidsPage,lifePage}
