@@ -1,0 +1,198 @@
+#hnmainimg>img{
+    height: 35px;
+    width: 280px;
+}
+#hnMinbox{
+    height: auto;
+}
+h1,p,a{
+    color: rgb(160, 155, 155);
+}
+h3{
+    color: rgb(117, 111, 111);
+    font-size:18px; font-weight: 100;
+}
+#contacts {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  #phone {
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 200px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  
+  }
+  #phonein {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    height: 100%;
+  }
+  #call {
+    width: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .t1 {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  .t2 {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+    font-size: 16px;
+  }
+  
+  .t3 {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+    font-size: 16px;
+  }
+  
+  #call+.t1+.t2 {
+    text-decoration: underline;
+  }
+  #mail {
+    /* border: 1px solid green; */
+    width: 45%;
+    height: 200px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  #emailin {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    height: 100%;
+  }
+  #post {
+    width: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #callhead {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 150px;
+  }
+  #hnMinbox{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+  }
+  #hnmainimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-top: 60px;
+  }
+ 
+     
+  
+  #hnpagelink{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  #hnpagelink>a{
+   text-decoration: none; 
+  
+  }
+  .vl {
+    border-left: 1px solid grey;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    margin-top:  -30px;
+    
+  }
+  #hnform>form>input {
+margin-top: 8px;
+width: 470px;
+height: 34px;
+  }
+  #hnform{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid red; */
+  }
+button{
+    background-color: rgb(239, 234, 234);
+    color: rgb(191, 179, 179);
+    height: 34px;
+    width: 200px;
+    border: none;
+}
+#hnleftform{
+    height: auto;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+#hninfo{
+    height: 80px;
+    width: 90%;
+    border: 0.5px solid grey;
+}
+#hninfo>p{
+    margin-top:15px;
+    margin-left: 5px;
+    
+}
+#hnex{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    justify-content: flex-start;
+}
+.hntemp{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#hnshipping{
+    display: flex;
+    justify-content: space-around;
+}
+#hnshipping>div>img{
+    height: 80px;
+    margin-left: 50px;
+}
+.temp1{
+    display: flex;
+    justify-content: space-between;
+}
+#hnshipping>button{
+    margin-left: 50%;
+}
+#hncheckout{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#hncheckout>a>button{
+    margin-top: 90px;
+    color: white;
+    background-color: black;
+}#hncheckout>a>button:hover{
+    background-color: rgb(172, 168, 168);
+}
