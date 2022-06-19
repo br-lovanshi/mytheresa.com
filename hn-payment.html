@@ -5,8 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+    <style>
+    h4{
+        margin-bottom: -1px;
+    }
+    input{
+        height: 30px;
+    }
+    </style>
 </head>
 <body>
-    
+    <div id="hnmainimg">
+        <img  src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237" alt="">
+      </div>
+      <div id="hnpagelink">
+        <a href="">SHOPPING BAG</a>
+        <a href="">DELIVERY</a>
+        <a href="">PAYMENT</a>
+        <a href="">CONFIRM</a>
+    </div>
+        <hr>
+
+      <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div id="hn1Minbox">
+            <h3>PAYMENT METHOD</h3>
+            <P>Please select your preferred payment method for this order.</P>
+            <hr>
+            <div style="display: flex ;">
+               <div style="width:50%;">
+                <div id="hncard"><input type="radio">
+                    <img style="height:50px;width:50px;" src="https://4.imimg.com/data4/VY/KI/MY-14005504/magnetic-strip-id-card-250x250.png" alt="">CARD</div>
+                <p>immidiate shipping</p>
+               </div>
+               <div id="cardsection">
+                <h4>Name on Card*</h4>
+                <input style="width: 500px ;" type="text" name="" id="">
+                <h4>Credit card nunmber*</h4>
+                <input style="width: 500px ;" type="text">
+                <div style="display: flex;">
+                <div style="margin-right: 13px;">
+                    <h4>Expiration date*</h4> <br>
+                    <input style="width: 120px;" type="text" placeholder="MM/YY">
+                </div>
+                <div>
+                    <h4>CVc/CVV*</h4> <br>
+                    <input style="width: 120px;" type="text" placeholder="123">
+                </div>
+                
+              </div>
+              * required file
+               </div>
+            </div>
+            <!-- //////////////////////////////////////////////////// -->
+            <hr>
+                <div>
+                    <div id="hncard"><input type="radio">
+                        <img style="height:50px;width:50px;" src="data:image/png;base64,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" alt=""></div>
+                    <p>immidiate shipping</p>
+                </div>
+                <hr>
+                <div style="display: flex ; justify-content: space-between;">
+                    <div> <button>BACK TO DELIVERY </button>
+                    <P> Please note: By clicking this button, all data listed on this page will be eras <br> for security reasons.</P> </div>
+                    <div> <button style="color: white; background-color:black;">PROCEED TO CHRCK OUT</button></BUTTon></div>
+                </div>
+      </div>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <p id="callhead">You can also place your order via telephone.</p>
+        <div id="contacts">
+            <div id="phone">
+                <div id="phonein">
+                    <img id="call" src="./img/2.png" alt="">
+                    <p class="t1">CALL US</p>
+                    <p class="t2">+49 89 127695-101</p>
+                    <p class="t3">Available 24/7</p>
+                </div>
+            </div>
+            <div id="mail">
+                <div id="emailin">
+                    <img id="post" src="./img/1.png" alt="">
+                    <p class="t1">MAIL US</p>
+                    <p class="t2">customercare@mytheresa.com</p>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
