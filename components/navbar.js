@@ -1,3 +1,5 @@
+
+let currUser = JSON.parse(localStorage.getItem("currUser")) || {user:"mahesh"};
 class Navbar {
   Nav(el) {
     let topNav = document.createElement("div");
@@ -10,15 +12,15 @@ class Navbar {
                     </ul>
                     <ul id="cat_R_Links">
                       <li><a href="newslatter.html">Signup for Newsletter</a></li>
-                      <li>   <a href="./login page/loginandsignup.html">My account</a></li>
-                      <li><a href="./construct_week_addtocart/add_cart.html">My wishlist</a></li>
+                      <li><a href="loginandsignup.html">My account</a></li>
+                      <li><a href="./add_cart.html">My wishlist</a></li>
                       <li><a href="#">India | English</a></li>
                     </ul>`;
     topNav.innerHTML = catLinks;
     let midNav = document.createElement("div");
     midNav.setAttribute("id", "midNav");
     let midNavHtml = `
-                      <a href="./construct_week_addtocart/add_cart.html"> <div id="logo">
+                      <a href="./add_cart.html"> <div id="logo">
                  
                       <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220608T143740">
                     </div>

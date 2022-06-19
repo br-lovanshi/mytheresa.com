@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>payment</title>
     <style>
    
     </style>
     <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="./components/styles/navbar_footer.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <!-- <link rel="stylesheet" href="styles/home.css"> -->
+    <link rel="stylesheet" href="components/styles/navbar_footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-  <div id="hnmainimg">
-    <img  src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237" alt="">
-  </div>
+ 
+    <div class="container">
+        <div class="main_container">
+            <div id="navbar"></div>
   <div id="hnpagelink">
     <a href="">SHOPPING BAG</a>
     <a href="">DELIVERY</a>
     <a href="">PAYMENT</a>
     <a href="">CONFIRM</a>
 </div>
+
     <hr>
    <div id="hnMinbox">
     <h3 style="">SHIPPING ADDRESS</h3>
@@ -27,7 +39,7 @@
    <input type="radio"><label for="">Ms.*</label>&nbsp;&nbsp;
    <input type="radio"><label for="">Mrs.*</label>&nbsp;&nbsp;
    <input type="radio"><label for="">Mr.*</label>&nbsp;&nbsp;
-     <div style="display:flex ; height: 500px;">
+     <div style="display:flex ; ">
         <!-- righy part -->
         <div id="hnform">
             <form action="">
@@ -69,7 +81,7 @@
             <div id="hninfo"><p>Due to a high volume of orders, delays of up to 2 days may occur. We apologize for any inconvenience this may cause. Please note that this delay applies to orders placed with both standard and express shipping.</p></div>
             <hr style="margin-top: 20px;">
           <div class="hntemp">
-             <div id="hnex" > <input type="radio"><h2>Express</h2></div>
+             <div id="hnex" > <input type="radio"><h3>Express</h3></div>
              <div> <h3 id="delivaryprise">€ 0.00</h3></div></div>
              <hr>
              <h3>PACKAGING OPTIONS</h3>
@@ -111,5 +123,10 @@
         </div>
     </div>
    </div>
+   <footer id="footer"></footer>
+</div>
 </body>
 </html>
+
+<script type="module" src="script/head_footer.js"></script>
+<script type="module" src="./script/index.js"></script>

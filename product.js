@@ -30,7 +30,7 @@ addToCart.addEventListener("click",function(){
 let buyNow = document.getElementById("buyNow");
 buyNow.addEventListener("click",function(){
     // alert("item added on cart");
-    window.location.href="men.html" //"payment.html"
+    window.location.href="payment.html" //"payment.html"
     
 })
 
