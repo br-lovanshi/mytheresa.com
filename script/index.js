@@ -1,34 +1,14 @@
 import Home from "../components/home.js";
 import displayHome from "../components/home.js";
 let cart = document.querySelector("#cart");
-
-// let makeHoverEffect = () => {
-//   let allLowNavLinks = document.querySelectorAll(".lowNavlink");
-//   allLowNavLinks.forEach((link) => {
-//     link.addEventListener("mouseover", () => {
-//       let hres = document.getElementById("hoverResult");
-//       hres.style.display = "block";
-//       document
-//         .getElementById("hoverResult")
-//         .addEventListener("mouseenter", function () {
-//           this.style.display = "block";
-//         });
-//       document
-//         .getElementById("hoverResult")
-//         .addEventListener("mouseleave", function () {
-//           this.style.display = "none";
-//         });
-//     });
-
-//     link.addEventListener("mouseleave", () => {
-//       document.getElementById("hoverResult").style.display = "none";
-//     });
-//   });
-// };
+let userData = JSON.parse(localStorage.getItem("userData"));
+let cartCount = document.querySelector(".cartCount");
 
 // scroll effect for nav bar
 
 document.addEventListener("scroll", function () {
+  // let cartCount = document.querySelector(".cartCount");
+  cartCount.innerText = userData.length;
   let mNav = document.getElementById("midNav");
   let lNav = document.getElementById("lowNav");
   let pY = window.pageYOffset;
@@ -40,8 +20,10 @@ document.addEventListener("scroll", function () {
       midnavcart.remove();
       lNav.innerHTML += `<span class="outer_cart" id="cart"><span class="material-symbols-outlined cart_bag">
       shopping_bag
-      <span class="cartCount">99+<span>
+      <span class="cartCount"><span>
       </span></span>`;
+      cartCount = document.querySelector(".cartCount");
+      cartCount.innerText = userData.length;
 
       let crt = document.getElementById("cart");
       crt.style.display = "flex";
@@ -51,27 +33,21 @@ document.addEventListener("scroll", function () {
       cart = document.querySelector("#cart");
 
       cart.addEventListener("click", function () {
-        console.log("you clicked on cart");
+        window.location = "./add_cart.html";
       });
-
-      // hover effect for to dropdown menu of navlinks
-      // makeHoverEffect();
-
-      // remove midnav
-      // add cart to lnav
     }
   } else {
     if (lowNavCart) {
       lowNavCart.remove();
       mNav.innerHTML += `<div id="cart"><span class="outer_cart">SHOPPING BAG<span class="material-symbols-outlined cart_bag">
                           shopping_bag
-                          <span class="cartCount">99+<span>
+                          <span class="cartCount"><span>
                           </span></span></div>`;
 
       cart = document.querySelector("#cart");
       console.log(cart);
       cart.addEventListener("click", function () {
-        console.log("you clicked on cart");
+        window.location = "./add_cart.html";
       });
     }
 
@@ -80,6 +56,9 @@ document.addEventListener("scroll", function () {
     // add cart to mid nav
     // remove cart from lnav
   }
+
+  cartCount = document.querySelector(".cartCount");
+  cartCount.innerText = userData.length;
 });
 
 // makeHoverEffect();

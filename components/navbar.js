@@ -1,5 +1,3 @@
-
-let currUser = JSON.parse(localStorage.getItem("currUser")) || {user:"mahesh"};
 class Navbar {
   Nav(el) {
     let topNav = document.createElement("div");
@@ -28,7 +26,7 @@ class Navbar {
                     
                     <span class="outer_cart">SHOPPING BAG<span class="material-symbols-outlined cart_bag">
                     shopping_bag
-                    <span class="cartCount">99<span>
+                    <span class="cartCount"><span>
                     </span></span></div></a>
     
     `;
@@ -59,11 +57,9 @@ class Navbar {
                   </div>
     `;
     lowNav.innerHTML = lowNavHtml;
-    
 
     el.append(topNav, midNav, lowNav);
   }
-  
 }
 
 export default Navbar;
