@@ -48,6 +48,6 @@ btn.innerText  = "Explore More "
 
 
 btn.addEventListener("click",function(){
-    window.location.href="men.html";
+    window.location.href="life.html";
 });
 document.querySelector("body").append(btn);

@@ -10,7 +10,7 @@ class Navbar {
                     </ul>
                     <ul id="cat_R_Links">
                       <li><a href="newslatter.html">Signup for Newsletter</a></li>
-                      <li></li>
+                      <li>   <a href="./login page/loginandsignup.html">My account</a></li>
                       <li><a href="./construct_week_addtocart/add_cart.html">My wishlist</a></li>
                       <li><a href="#">India | English</a></li>
                     </ul>`;
@@ -36,15 +36,15 @@ class Navbar {
     lowNav.setAttribute("id", "lowNav");
     let lowNavHtml = `
                   <ul id="lowNavLinks">
-                    <li class="lowNavlink"><a href="#" >NEW ARRIVALS</a></li>
-                    <li class="lowNavlink"><a href="#" >DESIGNERS</a></li>
-                    <li class="lowNavlink"><a href="#" >CLOTHING</a></li>
-                    <li class="lowNavlink"><a href="#" >SHOES</a></li>
-                    <li class="lowNavlink"><a href="#" >BAGS</a></li>
-                    <li class="lowNavlink"><a href="#" >ACCESSORIES</a></li>
-                    <li class="lowNavlink"><a href="#" >JEWELRY</a></li>
-                    <li class="lowNavlink"><a href="#" >VACATION</a></li>
-                    <li><a href="#" class="NavSales">SALE</a></li>
+                    <li class="lowNavlink"><a href="men.html" >NEW ARRIVALS</a></li>
+                    <li class="lowNavlink"><a href="life.html" >DESIGNERS</a></li>
+                    <li class="lowNavlink"><a href="men.html" >CLOTHING</a></li>
+                    <li class="lowNavlink"><a href="men.html" >SHOES</a></li>
+                    <li class="lowNavlink"><a href="men.html" >BAGS</a></li>
+                    <li class="lowNavlink"><a href="men.html" >ACCESSORIES</a></li>
+                    <li class="lowNavlink"><a href="life.html" >JEWELRY</a></li>
+                    <li class="lowNavlink"><a href="life.html" >VACATION</a></li>
+                    <li><a href="men.html" class="NavSales">SALE</a></li>
                   </ul>
                   <div class="input-group">
                     <input type="text" id="NavSearch" placeholder="Search for...">

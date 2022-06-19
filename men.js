@@ -329,7 +329,7 @@ pageChange1.addEventListener("click", function () {
 
 let pageChange2 = document.getElementById("pageChange2");
 pageChange2.addEventListener("click", function () {
-  window.location.href = "index.html";
+  window.location.href = "life.html";
 });
 let proPaeg = document
   .getElementById("proPage")

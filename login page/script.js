@@ -63,7 +63,7 @@ var exist = user.findIndex(function(ele){
                 alert("Account login Successfull")
                 flag=true;
                 localStorage.setItem("userdata",JSON.stringify(ele))
-               window.location.href="account.html"
+               window.location.href="../index.html"
             }
             
         })
