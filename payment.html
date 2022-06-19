@@ -37,27 +37,28 @@
                 <br>
                 <input id="comp"type="text" placeholder="Company">
                 <br>
-                <input id="" type="text" placeholder="street">
+                <input id="street" type="text" placeholder="street">
                 <br>
-                <input id=""type="text" placeholder="Address line2">
+                <input id="address"type="text" placeholder="Address line2">
                 <br>
-                <input id=""type="text" placeholder="Postcode*">
+                <input id="postcode"type="text" placeholder="Postcode*">
                 <br>
-                <input id="" type="text" placeholder="city">
+                <input id="city" type="text" placeholder="city">
                 <br>
-                <input id="" type="text" placeholder="state">
+                <input id="state" type="text" placeholder="state">
                 <br>
-                <input id=""type="text" placeholder="mobile number">
+                <input id="mbno"type="text" placeholder="mobile number">
             </form>
             <p>*required fields</p>
             <h3>BILLING ADDRESS</h3>
                 <p>If your billing address differs from your shipping address, please click  "add billing address".</p>
-           <button>
+           <button onclick="strdata()">
             ADD BILLING ADDRESS
-           </button><br><br><br><br>
-           <button>
-            BACK TO SHOPPING BAG
            </button>
+           <br><br><br><br>
+          <a href="add_cart.html"> <button>
+            BACK TO SHOPPING BAG
+           </button></a>
         </div>
         <!-- //////// middle line///////// -->
         <div>
@@ -113,3 +114,4 @@
    </div>
 </body>
 </html>
+<script src="payment.js"></script>

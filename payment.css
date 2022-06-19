@@ -216,3 +216,11 @@ button{
   margin-left: 20px;
   margin-top: -7px;
 }
+#hn-address{
+  width: 80%;
+  margin: auto;
+  
+  /* border: 1px solid red; */
+}
+
+  
