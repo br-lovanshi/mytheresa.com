@@ -28,12 +28,12 @@ host your website in no time, and you can simple explore the website.
 
 6. Credits =>
 
-i) Brajesh (fw18_0967)
-ii) Ankur (fw18_0624)
-iii) Waghmare Anand	(fw18_0754)
-iv) Harshal Nikhade (fw18_0571)
-v) Golla Mahesh Kumar (fw18_0504)
-vi) Abdul Rub (fp03_014)
+a) Brajesh (fw18_0967)
+b) Ankur (fw18_0624)
+c) Waghmare Anand	(fw18_0754)
+d) Harshal Nikhade (fw18_0571)
+e) Golla Mahesh Kumar (fw18_0504)
+f) Abdul Rub (fp03_014)
  
  
  
