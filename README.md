@@ -14,19 +14,19 @@ including the Mazama Wares collection of handcrafted glassware etc.
 - Payment page with total amount.
 ## Homepage
 
-![App Screenshot](https://i.postimg.cc/RhVQWt8q/tanner.png)
+![App Screenshot](./asset/Screenshot%20(1616).png)
 
-## Product page
+## Men's Page
 
-![App Screenshot](https://i.postimg.cc/RSbcdWj1/Screenshot-327.png)
+![App Screenshot](./asset/Screenshot%20(1619).png)
 
-## Cart page
+## Products 
 
-![App Screenshot](https://i.postimg.cc/nr4WYX76/Screenshot-328.png)
+![App Screenshot](./asset/Screenshot%20(1620).png)
 
-## Checkout page
+## Payment page
 
-![App Screenshot](https://i.postimg.cc/q7s5n8mG/Screenshot-329.png)
+![App Screenshot](./asset/Screenshot%20(1621).png)
 
 ## Deployment
 
